@@ -1,0 +1,110 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 60%;
+  background: #fff;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+  position: relative;
+  top: 10px;
+  border-radius: 15px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+select,
+option {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: #e9eaea;
+}
+.multiDiv {
+  display: flex;
+  flex-direction: column;
+}
+.input,
+.msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+  border-radius: 10px;
+}
+.inputOption {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+  border-radius: 10px;
+}
+
+.login .input {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child {
+  margin-right: 0;
+}
+
+.msg .area {
+  height: 200px;
+}
+
+.addBtn {
+  margin-top: 5px;
+  width: 150px;
+  background: #210011;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 5px;
+
+  width: 100px;
+  background: rgb(175, 8, 8);
+  /* height: 30px; */
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  /* margin: 0 auto; */
+  color: #fff;
+  cursor: pointer;
+}
+
+.multiple {
+  visibility: hidden;
+}
+.input:focus,
+.msg .area:focus {
+  border: 2px solid #486255;
+}

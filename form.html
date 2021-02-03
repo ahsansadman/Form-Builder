@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Builder</title>
+</head>
+<body>
+    <Section class="parent" id='section'>
+        <div class="container">
+            <div class="main">
+                <div class="msg">
+                <select id="domain" name="domain" class="domain">
+                    <option value="short">Short Answer</option>
+                    <option value="choice">Multiple Choice</option>
+                    <option value="check">Check Box</option>
+                </select>
+
+                </div>
+                <div class="subject">
+                    <input type="text" placeholder="Write a question" class="input" id="question">
+                </div>
+            </div>
+                <div class="multiple" id="multiple">
+                    <div class="btn" onclick="addOption()">Add Option</div>
+                    <div class="subject" id="radio">
+                    </div>
+                </div>
+        <div class="addBtn" id="addBtn" onclick="get()">Add question</div>
+        </div>
+    </div>    
+
+    </Section>
+</body>
+</html>
